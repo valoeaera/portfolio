@@ -1,0 +1,5 @@
+.navbar {
+    border: 2px solid white;
+    width: clamp(10%,200px , 40%);
+    height: 100vh;
+}

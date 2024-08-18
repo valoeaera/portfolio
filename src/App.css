@@ -1,6 +1,17 @@
 #root {
+  display: flex;
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+}
+
+.menu-icon-button {
+  flex-shrink: 0;
+  width: 5rem;
+  height: 5rem;
+  background-color: transparent;
+}
+
+.menu-icon-button img {
+  width: 100%;
 }

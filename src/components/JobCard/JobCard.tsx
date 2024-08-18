@@ -1,14 +1,8 @@
 import styles from "./JobCard.module.css"
 
-interface Props {
-  company: string;
-  start: string;
-  end: string;
-  skills: Array<string>;
-  responsibilities: Array<string>;
-}
+import  { Experience } from "../../custom"
 
-const JobCard = (props: Props) => {
+const JobCard = (props: Experience) => {
   return (
     <div id="job-card-container" className={styles["job-card"]}>
       <p>{props.company}</p>
